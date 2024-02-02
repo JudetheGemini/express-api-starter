@@ -22,7 +22,8 @@
     "express": "^4.18.2",
     "helmet": "^7.1.0",
     "morgan": "^1.10.0",
-    "nodemailer": "^6.9.9"
+    "nodemailer": "^6.9.9",
+    "vercel-build": "echo hello"
   },
   "devDependencies": {
     "eslint": "^8.54.0",
