@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
   });
 });
 
-router.post('/send', sendMail);
+router.use('/send', sendMail);
 
 router.use('/emojis', emojis);
 

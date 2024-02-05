@@ -4,7 +4,7 @@ const nodemailer = require('nodemailer');
 
 const router = express.Router();
 
-router.post('/send', (req, res) => {
+router.post('/', (req, res) => {
   const output = `
     <p>You have a new contact request</p>
     <h3>Contact Details</h3>
